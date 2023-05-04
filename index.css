@@ -5,10 +5,10 @@ body {
     background-color: #3e3e3e;
 }
 #title {
-    color: #900090;
+    color: white;
     text-align: center;
-    size: 600px;
-    background-color: #3e3e3e;
+    font-size: 60px;
+    background-color: #3a3a3a;
     border-bottom: 5px solid #313131;
     border-left: 5px solid #313131;
     font-family: monospace;

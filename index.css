@@ -29,6 +29,11 @@ a {
     color: white;
 }
 .container {
+    align-content: center;
+}
+.opening {
+    height: 500px;
+    width: 500px;
     background-color: #af00f1;
     border-top: #282828;
     border-right: #282828;

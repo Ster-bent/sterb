@@ -1,0 +1,14 @@
+body {
+    background-color: #3e3e3e;
+}
+.container {
+    background-color: #3e3e3e;
+}
+#title {
+    background-color: #3e3e3e;
+    border-bottom: 5px solid #313131;
+    border-left: 5px solid #313131;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    font-family: monospace;
+}

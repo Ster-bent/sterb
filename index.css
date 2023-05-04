@@ -8,6 +8,12 @@ body {
     background-color: #3e3e3e;
     border-bottom: 5px solid #313131;
     border-left: 5px solid #313131;
-    border: 1px solid black;
     font-family: monospace;
+}
+#title:hover {
+    background-color: #313131;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 6px solid #282828;
+    border-right: 6px solid #282828;
 }

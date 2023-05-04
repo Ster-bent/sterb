@@ -24,3 +24,8 @@ a {
     border-top: 5px solid #282828;
     border-right: 5px solid #282828;
 }
+#cred {
+    font-size: x-small;
+    color: white;
+    background-position-y: bottom;
+}

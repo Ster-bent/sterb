@@ -4,6 +4,10 @@ body {
 .container {
     background-color: #3e3e3e;
 }
+a {
+    color:white;
+    text-decoration: none;
+}
 #title {
     color: white;
     text-align: center;

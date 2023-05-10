@@ -16,6 +16,7 @@ a {
     border-bottom: 5px solid #313131;
     border-left: 5px solid #313131;
     font-family: monospace;
+    z-index: 2;
 }
 #title:hover {
     background-color: #313131;
@@ -28,13 +29,66 @@ a {
     font-size: x-small;
     color: white;
 }
-.container {
-    align-content: center;
-}
 .opening {
     height: 500px;
     width: 500px;
     background-color: #af00f1;
-    border-top: #282828;
-    border-right: #282828;
+    border-top: 10px solid #282828;
+    border-right: 10px solid #212121;
+    z-index: 2;
+    position: absolute;
+    right: 36.5%;
+}
+.opening:hover {
+    background-color: transparent;
+}
+.container {
+    text-align: center;
+}
+h1 {
+    vertical-align: middle;
+    font-family: monospace;
+    font-size: xx-large;
+    color: white;
+}
+#hi {
+    vertical-align: middle;
+    top: 153px;
+    width:510px;
+    height: 510px;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    right: 36.5%;
+}
+.header2{
+    border: 2px solid white;
+    font-family: monospace;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+p {
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}
+.big {
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+#info {
+    position: absolute;
+    border:5px solid white;
+    background-color: #3e3e3e;
+    width: 370px;
+    height: 500px;
+    z-index: 5;
+}
+#info:hover {
+    border: 8px solid royalblue;
 }

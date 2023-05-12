@@ -2,10 +2,10 @@
 <html>
     <head>
         <script>
-            document.getElementById('button') = function(){
-                alert("works");
-            }
-            console.log("deployed");
+            var count = 1;
+            document.getElementById('button').onclick = function() {
+                alert("button was clicked " + (count++) + " times");
+            };
         </script>
         <title>ClickEvent</title>
     </head>
